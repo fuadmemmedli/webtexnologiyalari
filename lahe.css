@@ -138,7 +138,7 @@ h1 {
     text-align: center;
     font-family: Raleway;
     color: black;
-  margin-top: 150px;
+    margin-top: 150px;
   }
 
   .container {
@@ -244,7 +244,7 @@ h1 {
 
 .wtuki{
   width: 100%;
-  height: 105vh;
+  height: 110vh;
   background-color: black;
   display: flex;
   flex-wrap: wrap;
@@ -256,21 +256,25 @@ h1 {
 .wtuki div{
   width: 40%;
   height: 50vh;
-  background-color: burlywood;
+  background-color: rgb(78, 78, 78);
   border-radius: 5px;
   text-align: center;
   color: whitesmoke;
 }
 
-.wtuki div h2{
-  padding-top: 60px;
+.wtuki div{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ 
  
 }
 
 .wtuki div img{
   width: 100%!important;
-  height: 50vh!important;
+  height: 100%!important;
 }
+
 
 .konec{
   margin-top: 100px;
@@ -285,6 +289,12 @@ h1 {
   justify-content: space-around;
   align-items: center;
   text-align: center;
+}
+.contactus{
+  width: 30vw;
+  height: 30vh;
+  align-items: center;
+  padding: 70px;
 }
 
 .konec div{
@@ -328,7 +338,7 @@ left: -5%;
 width: 110%;
 top: -5%;
 height: 110%;
-background: rgba(50, 173, 97, 0.3);
+background: rgba(91, 100, 95, 0.3);
 z-index: 3;
 transition: all .4s;
 }
@@ -358,7 +368,7 @@ left: -5%;
 width: 110%;
 top: -5%;
 height: 110%;
-background: rgba(50, 173, 97, 0.3);
+background: rgba(91, 100, 95, 0.3);
 z-index: 3;
 transition: all .4s;
 }
